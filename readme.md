@@ -2,6 +2,14 @@
      width="30%"
      style="padding: 10px">
 
+# << Regicide >>
+
+## << Descrição breve do domínio do problema >>
+
+<img src="img/ifsc-logo.png"
+     width="30%"
+     style="padding: 10px">
+
 # Regicide Game
 
 # StartUp
