@@ -47,13 +47,13 @@
 * São as cartas que devem ser derrotadas para ganhar o jogo. Cada carta equivale a um inimigo, cada inimigo possui um valor de dano, defesa e sua imunidade:
      * Valete:
           * Defesa: 20
-		  *Ataque: 10        
+		  * Ataque: 10        
      * Dama:
           * Defesa: 30
-		  *Ataque: 15
+		  * Ataque: 15
      * Rei:
           * Defesa: 40
-		  *Ataque: 20
+		  * Ataque: 20
 		 
 * Inimigos possuem imunidade aos efeitos de seu naipe:
 	* Valete de paus é imune ao efeito de paus, logo se um jogador jogar um 9 de paus, o dano que será causado ao inimigo será de apenas 9. O mesmo efeito se aplica às cartas animais. A carta de coringa não é afetada pela imunidade de ouros. 
@@ -70,13 +70,13 @@
 	
 # Etapas de uma Rodada 
 * O jogo possui 4 etapas que se repetem sequencialmente:
-	*Etapa 1: Jogar uma carta ou passar a vez:
+	* Etapa 1: Jogar uma carta ou passar a vez:
 		* O jogador deve escolher uma carta da sua mão para ser jogado no campo. O jogador possui a opção de passar a vez e não jogar carta alguma.
-	*Etapa 2: Ativar o poder da carta:
+	* Etapa 2: Ativar o poder da carta:
 		* O poder das cartas é ativado e seu efeito é resolvido. Se o jogadaor 1 jogar um 9 de paus, 18 é o dano que deve ser aplicado na próxima etapa.
-	*Etapa 3: Dar dano ao inimigo e verificar se ele foi derrotado:
+	* Etapa 3: Dar dano ao inimigo e verificar se ele foi derrotado:
 		* O dano da etapa 2 é aplicado ao inimigo é verificado se o inimigo foi derrotado. Se inimigo for derrotada a próxima rodada começa na etapa 1 iniciando no inimigo, se não foi derrotado, o jogo passa para a etapa 4.
-	*Etapa 4: Sofrer dano do inimigo:
+	* Etapa 4: Sofrer dano do inimigo:
 		* O jogador que sofrer dano de um inimigo deve descartar cartas de modo que a soma dos valores das cartas seja igual ao dano que ele sofreu do inimigo. Se um jogador sofrer 13 de dano, uma possível combinação para descartar de cartas é um 9 de qualquer naipe e um 4 de qualquer naipe. Todos os jogadors perdem se qualquer jogador não puder descartar cartas suficientes.
 
 * Após o primeiro jogador realizar as quatro etapas, começa a etapa 1 do segundo jogador. 
@@ -90,9 +90,9 @@
 # Regras Adicionais:
 * Comprando um inimigo derrotado:
 	* Se dano exato for causado a um inimigo, ao invés desta carta ser removida do jogo, ela é colocada no topo da taverna. Se um inimigo com 9 de vida sofrer 9 de dano, ele é colocado no topo da taverna. A rodada do próximo jogado começa normalmente.
-*Efeito do Ouros:
+* Efeito do Ouros:
 	* Cartas compradas ao resolver o efeito de ouros são realizadas a partir do topo da taverna. Um a um, cada jogador compra uma carta começando pelo jogador que jogo o ouros e em sentido horário, compram até satisfazerem o valor da carta jogado ou atingirem o limite da mão.
-*Efeito do Copas:
+* Efeito do Copas:
 	* As cartas da pilha de descarte são embaralhadas e então o número de cartas que satisfaz o valor do copas jogado é colocado no fundo da taverna. Um 9 de copas embaralha toda a pilha de descartes e então 9 cartas aleatórias são colocados no fundo da taverna.
 
 https://www.regicidegame.com/
